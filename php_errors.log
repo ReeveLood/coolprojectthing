@@ -1,0 +1,20 @@
+[20-May-2019 14:59:34 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/New Folder/index.php on line 39
+[21-May-2019 14:56:22 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'username'@'localhost' (using password: YES) in /home/ubuntu/workspace/New Folder/index.php on line 7
+[21-May-2019 14:56:22 UTC] PHP Stack trace:
+[21-May-2019 14:56:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/New Folder/index.php:0
+[21-May-2019 14:56:22 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/New Folder/index.php:7
+[21-May-2019 14:58:08 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'username'@'localhost' (using password: NO) in /home/ubuntu/workspace/New Folder/index.php on line 7
+[21-May-2019 14:58:08 UTC] PHP Stack trace:
+[21-May-2019 14:58:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/New Folder/index.php:0
+[21-May-2019 14:58:08 UTC] PHP   2. mysqli_connect() /home/ubuntu/workspace/New Folder/index.php:7
+[22-May-2019 15:24:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/New Folder/index.php on line 165
+[22-May-2019 15:25:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, string given in /home/ubuntu/workspace/New Folder/index.php on line 121
+[22-May-2019 15:25:07 UTC] PHP Stack trace:
+[22-May-2019 15:25:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/New Folder/index.php:0
+[22-May-2019 15:25:07 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/New Folder/index.php:121
+[22-May-2019 19:37:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/New Folder/index.php on line 175
+[22-May-2019 19:49:41 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/New Folder/index.php on line 151
+[23-May-2019 15:15:42 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/New Folder/index.php on line 165
+[23-May-2019 15:15:42 UTC] PHP Stack trace:
+[23-May-2019 15:15:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/New Folder/index.php:0
+[23-May-2019 15:15:42 UTC] PHP   2. mysqli_fetch_array() /home/ubuntu/workspace/New Folder/index.php:165

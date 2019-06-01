@@ -1,0 +1,37 @@
+html {
+    background-color: #e5bd67;
+}
+body {
+  background-color: #e5bd67;
+}
+.res {
+  margin: 10px;
+  background-color: #e3e9f2;
+  font-family: georgia, serif;
+  border-style: solid;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.container img {
+  width: 100%;
+}
+.pager {
+  margin: 10px;
+  background-color: #e5bd67;
+  font-family: georgia, serif;
+}
+textarea {
+  resize: none;
+}
+.headr {
+  margin: 10px;
+  background-color: #93c7ea;
+  text-align: center;
+  font-family: georgia, serif;
+  font-style: italic;
+  border-style: solid;
+}

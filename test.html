@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>
+      function countChar(val) {
+        var len = val.value.length;
+        if (len >= 500) {
+          val.value = val.value.substring(0, 500);
+        } else {
+          $('#charNum').text(500 - len);
+        }
+      };
+    </script>
+  </head>
+
+  <body>
+    <textarea id="field" onkeyup="countChar(this)"></textarea>
+    <div id="charNum"></div>
+  </body>
+
+</html>
+<!--<script src="jquery-3.4.0.min.js"></script>
